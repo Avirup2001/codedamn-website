@@ -1,0 +1,47 @@
+.grid-03 {
+	display: grid;
+	/* grid-template-columns: repeat(3, 1fr); */
+	grid-template-columns: 1fr 2fr 1fr 0.2fr;
+}
+.flex-01 {
+	display: flex;
+	align-items: center;
+}
+html {
+	font-size: 62.5%;
+}
+.flex-02 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	max-width: 130rem;
+	margin: 0 auto;
+	/* text-align: center; */
+}
+.grid-02 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 9.6rem 0;
+	gap: 6.4rem;
+}
+.img {
+	width: 100%;
+	border-radius: 0.8rem;
+}
+.header {
+	padding: 2.4rem;
+}
+/* body {
+	padding: 0 2.4rem;
+} */
+.section1,
+.section2,
+.section4,
+.section5,
+.section6,
+aside,
+footer {
+	padding: 0 2.4rem;
+}
